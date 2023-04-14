@@ -1,0 +1,26 @@
+.c-modal > .c-card{
+  height: 18rem;
+  width: 66rem;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.c-modal > .c-card > .buttons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+
+.c-modal > .c-card button {
+  width: 12rem;
+  height: 3.2rem;
+}
+
+@media(max-width:414px) {
+  .c-modal > .c-card{
+    height: 22rem;
+  }
+}
