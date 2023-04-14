@@ -93,9 +93,9 @@ const Home = () => {
           <img className='up-arrow' onClick={scrollUp} src={'/up.svg'} alt="up arrow icon"/>
         </div>
       )}
-      <div className="sign-out">
+      <div onClick={signOut} className="sign-out">
         <p>Sign Out</p>
-        <img onClick={signOut} src={'/signOut.svg'} alt="sign out icon"/>
+        <img  src={'/signOut.svg'} alt="sign out icon"/>
       </div>
       <div className={openDelete || openEdit ? "c-card on-modal" : "c-card"}>
         <div className="c-header">
