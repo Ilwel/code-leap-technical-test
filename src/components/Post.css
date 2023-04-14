@@ -1,0 +1,42 @@
+.c-post{
+  background-color: var(--surface);
+  border-radius: 1.6rem;
+  height: 31.6rem;
+}
+
+.c-post .c-header{
+  border-top-right-radius: 1.6rem;
+  border-top-left-radius: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-post .c-header .user-edit{
+  display: flex;
+  gap: 2.3rem;
+}
+
+.c-post .c-header .user-edit img{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: .5s;
+}
+
+.c-post .c-header .user-edit img:hover{
+  opacity: 1;
+}
+.c-post .content{
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.c-post .content .titles{
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-post .content .titles p{
+  color: var(--border-color);
+}
