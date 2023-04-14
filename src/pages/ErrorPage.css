@@ -1,0 +1,16 @@
+.l-error{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-error > .c-card {
+  padding: 2.4rem;
+}
+
+.l-error > .c-card p{
+  font-style: italic;
+  color: var(--input-text-color);
+}
