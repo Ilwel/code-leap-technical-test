@@ -1,0 +1,29 @@
+.l-sign-up{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.l-sign-up > .c-card{
+  height: 23rem;
+  width: 50rem;
+  padding: 2.4rem;
+}
+
+.l-sign-up > .c-card h2{
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+}
+
+.l-sign-up > .c-card input{
+  margin-top: 0.8rem;
+  margin-bottom: 2.2rem;
+}
+
+.l-sign-up > .c-card button{
+  height: 3.2rem;
+  width: 11.1rem;
+  margin-left: auto;
+}
