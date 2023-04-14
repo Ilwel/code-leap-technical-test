@@ -130,6 +130,13 @@ button{
   font-size: 1.5rem;
 }
 
+@keyframes pop{
+  from{
+    transform: scale(0.5);
+  }
+  50%  {transform: scale(1.2);}
+}
+
 @media(max-width:480px) {
   :root{
     font-size: 50%;

@@ -27,7 +27,7 @@ const Post = ({ post }:PostProps) => {
     <div className='c-post border'>
       <div className="c-header">
         <h2>
-          {post.title}
+          {post.title.length > 20 ? post.title.slice(0, 20) + "..." : post.title}
         </h2>
         {isSessionUser ? (
           <div className="user-edit">

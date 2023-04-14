@@ -3,9 +3,15 @@ import { PostForm } from "../types/PostForm";
 
 export class ApiService {
 
-  public async listAll(){
+  public async listAll(next: string | null = null){
     try {
-
+      if(next){
+        const response = await fetch(next)
+        if(response.ok){
+          const json = await response.json()
+          return json
+        }
+      }
       const response = await fetch(process.env.REACT_APP_API_URL as string)
       if(response.ok){
         const json = await response.json()

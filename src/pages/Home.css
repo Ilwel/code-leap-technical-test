@@ -80,6 +80,30 @@
   height: 4rem;
 }
 
+.up{
+  position: fixed;
+  cursor: pointer;
+  transition: .5s;
+  animation: pop 0.3s linear 1;
+  background-color: var(--surface);
+  z-index: 3;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.up-arrow{
+  height: 8rem;
+}
+
+.up:hover{
+  transform: scale(1.1);
+}
+
 @media(max-width:838px) {
   .l-home > .c-card{
     width: 100%;
@@ -94,5 +118,12 @@
     bottom: 2rem;
     background-color: var(--primary);
     border: solid 0.1rem var(--border-color);
+  }
+
+  .up-arrow{
+    height: 4rem;
+  }
+  .up{
+    background-color: var(--base);
   }
 }
