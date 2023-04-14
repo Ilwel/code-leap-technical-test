@@ -1,0 +1,30 @@
+.edit > .c-card{
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  width: 66rem;
+  height: 36rem;
+}
+
+.edit > .c-card > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.edit > .c-card > form h2{
+  margin: 0;
+}
+
+.edit > .c-card > form > .input-label{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.edit > .c-card > form .buttons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  width: 100%;
+}
