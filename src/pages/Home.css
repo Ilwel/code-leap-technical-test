@@ -7,7 +7,7 @@
 }
 
 .l-home > .c-card {
-  width: 80rem;
+  width: 60%;
   height: 100%;
   border-radius: 0;
 }
@@ -78,6 +78,12 @@
 
 .sign-out img{
   height: 4rem;
+}
+
+@media(max-width:480px) {
+  .l-home > .c-card{
+    width: 100%;
+  }
 }
 
 @media(max-width:1173px) {
