@@ -1,0 +1,92 @@
+.l-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.l-home > .c-card {
+  width: 80rem;
+  height: 100%;
+  border-radius: 0;
+}
+
+.l-home > .on-modal{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.l-home > .c-card > .content{
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.l-home > .c-card > .content > .c-card{
+  padding: 2.4rem;
+}
+
+.l-home > .c-card > .content form{
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.l-home > .c-card > .content form h2{
+  margin: 0;
+}
+
+.l-home > .c-card > .content form > .input-label{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.l-home > .c-card > .content form button{
+  height: 3.2rem;
+  width: 11.1rem;
+  margin-left: auto;
+}
+
+.l-home > .c-card > .content .posts{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.sign-out{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--surface);
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.sign-out:hover{
+  opacity: 1;
+}
+
+.sign-out img{
+  height: 4rem;
+}
+
+@media(max-width:1173px) {
+  .sign-out{
+    position: fixed;
+    z-index: 2;
+    top: unset;
+    bottom: 2rem;
+    background-color: var(--primary);
+    border: solid 0.1rem var(--border-color);
+  }
+}
